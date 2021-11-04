@@ -1,4 +1,17 @@
+#survey {
+  border: 4px dotted grey;
+  box-shadow: 4px 6px 6px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#survey h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 #survey-submit-btn {
   position: relative;
+  margin-top: 3%;
   left: 50%;
 }
