@@ -1,3 +1,7 @@
+.jumbotron {
+  text-align: center;
+}
+
 #survey {
   border: 4px dotted grey;
   box-shadow: 4px 6px 6px;
@@ -15,10 +19,12 @@
 }
 
 .programming-language {
+  display: none;
   min-height: 200px;
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
   border: 2px solid black;
   box-shadow: 4px 6px 6px;
+  text-align: center;
 }
