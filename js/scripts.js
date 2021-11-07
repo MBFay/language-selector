@@ -13,8 +13,6 @@ $(document).ready(function() {
 
     $(".programming-language").hide();
 
-    console.log(favAnimal);
-
     if (favAnimal === undefined || favColor === undefined || favBeachWalkLength === undefined || favLocation === undefined || favBeverage === undefined) {
       alert("Please fill out the full form!");
     } else {
@@ -59,11 +57,11 @@ $(document).ready(function() {
       }
   
       if (javascriptScore >= rubyScore && javascriptScore >= pythonScore) {
-        $("#javascript").slideToggle();
+        $("#javascript").fadeToggle();
       } else if (rubyScore >= javascriptScore && rubyScore >= pythonScore) {
-        $("#ruby").slideToggle();
+        $("#ruby").fadeToggle();
       } else if (pythonScore >= javascriptScore && pythonScore >= rubyScore) {
-        $("#python").slideToggle();
+        $("#python").fadeToggle();
       }
     }
   });
